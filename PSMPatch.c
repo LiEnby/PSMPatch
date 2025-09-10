@@ -219,7 +219,6 @@ void module_start(SceSize argc, const void *args) {
 
 	if(!strcmp(titleid,"PCSI00011")) // PSM Runtime
 	{
-		sceClibPrintf("[PSMPatch] Silca: I like to see girls die :3\n");
 		memset(fdToPath,0x00,sizeof(fdToPath));
 		sceClibPrintf("[PSMPatch] Loaded!\n");
 		sceClibPrintf("[PSMPatch] Running on %s\n",titleid);
